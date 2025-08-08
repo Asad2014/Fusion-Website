@@ -24,3 +24,37 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+
+/* Navigation Arrows Circle Style */
+.swiper-button-next,
+.swiper-button-prev {
+  border: 2px solid blue;                          
+  border-radius: 50%;             
+  width: 40px;                    
+  height: 40px;                  
+  background: transparent !important; 
+}
+
+/* Arrow icon size */
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  font-size: 14px !important;
+}
+
+
+/* Hover effect */
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+  background: white !important;
+  color: black;               
+  border-color: white;        
+}
+
+
+/* Arrow icon style */
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  font-size: 16px !important;  
+  color: black;            
+}
