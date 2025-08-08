@@ -17,7 +17,7 @@ export default function VideoSection() {
       <div className="container mx-auto px-4">
         <div
           className="flex flex-col md:flex-row justify-center items-center md:items-start gap-6 text-center md:text-left"
-          data-aos="fade-up"
+          data-aos="fade-right"
         >
           {/* Heading */}
           <h2 className="text-2xl font-semibold flex items-center border-l-4 border-blue-500 pl-3">
@@ -28,7 +28,7 @@ export default function VideoSection() {
           </h2>
 
           {/* Paragraph Section */}
-          <div className="flex items-center md:items-start gap-2 max-w-md text-sm text-gray-600 mx-5">
+          <div className="flex items-center md:items-start gap-2 max-w-md text-sm text-gray-600 mx-5"  data-aos="fade-right">
             <PencilLine
               className="text-blue-500 mt-1 flex-shrink-0"
               size={18}
@@ -45,7 +45,7 @@ export default function VideoSection() {
       <div
         className="relative mt-10 w-full max-w-full mx-auto rounded-lg overflow-hidden"
         style={{ paddingTop: "56.25%" }} // 16:9 ratio
-        data-aos="zoom-in"
+        data-aos="fade-right"
       >
         <iframe
           src="https://www.youtube.com/embed/74SX19N1s6o"

@@ -13,7 +13,7 @@ const TeamSection = () => {
   }, []);
 
   return (
-    <section className="py-16 bg-white">
+    <section className="py-16 bg-white" data-aos="fade-up">
       {/* Heading */}
       <div className="text-center mb-12 px-4" data-aos="fade-up">
         <h2 className="text-3xl font-semibold mb-2">OUR AWESOME TEAM</h2>
@@ -27,7 +27,7 @@ const TeamSection = () => {
       {/* Team Members */}
       <div className="max-w-6xl mx-auto px-4 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-12">
         {/* Member 1 */}
-        <div className="text-center" data-aos="fade-up" data-aos-delay="0">
+        <div className="text-center" data-aos="fade-up">
           <div className="border-2 border-yellow-400 p-1 inline-block mb-4">
             <Image
               src="/team-1.jpg"
@@ -53,7 +53,7 @@ const TeamSection = () => {
         </div>
 
         {/* Member 2 */}
-        <div className="text-center" data-aos="fade-up" data-aos-delay="100">
+        <div className="text-center" data-aos="fade-up">
           <div className="border-2 border-yellow-400 p-1 inline-block mb-4">
             <Image
               src="/team-2.jpg"
@@ -79,7 +79,7 @@ const TeamSection = () => {
         </div>
 
         {/* Member 3 */}
-        <div className="text-center" data-aos="fade-up" data-aos-delay="200">
+        <div className="text-center" data-aos="fade-up">
           <div className="border-2 border-yellow-400 p-1 inline-block mb-4">
             <Image
               src="/team-3.jpg"

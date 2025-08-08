@@ -37,7 +37,7 @@ const LatestBlog = () => {
   }, []);
 
   return (
-    <section className="py-16 bg-white text-center">
+    <section className="py-16 bg-white text-center" data-aos="fade-right">
       <h2 className="text-3xl font-semibold mb-4">Latest Blog</h2>
       <div className="border-b-2 w-12 mx-auto border-blue-500 mb-10"></div>
       

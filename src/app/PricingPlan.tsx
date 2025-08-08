@@ -13,18 +13,18 @@ export default function PricingPlan() {
   return (
     <div className="bg-white pb-8 pt-4 px-4 sm:px-6 lg:px-8 mt-10 md:mt-0">
       {/* Heading Section */}
-      <div className="max-w-7xl mx-auto text-center" data-aos="fade-up">
+      <div className="max-w-7xl mx-auto text-center"  data-aos="fade-right">
         <h2 className="text-3xl font-extrabold text-gray-900 sm:text-4xl">
           PRICING PLAN
         </h2>
         <div className="border-b-6 w-8 mx-auto border-blue-500 mb-4 mt-5"></div>
-        <p className="mt-4 text-gray-500 max-w-3xl mx-5 md:mx-auto" data-aos="fade-up">
+        <p className="mt-4 text-gray-500 max-w-3xl mx-5 md:mx-auto" data-aos="fade-right">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud exercitation
         </p>
       </div>
 
       {/* Cards Section */}
-      <div className="mt-16 grid grid-cols-1 md:grid-cols-3  max-w-7xl md:mx-10  mx-auto gap-10 md:gap-0">
+      <div className="mt-16 grid grid-cols-1 md:grid-cols-3  max-w-7xl md:mx-10  mx-auto gap-10 md:gap-0"  data-aos="fade-right">
         {/* Personal Plan */}
         <div
           className="rounded-lg shadow p-6 flex flex-col items-center space-y-4"
