@@ -21,7 +21,7 @@ const GetInTouch = () => {
 
       {/* Contact Info Section */}
       <div
-        className="flex flex-col md:flex-row justify-center items-center gap-10 md:pl-150 mb-12"
+        className="flex flex-col md:flex-row justify-center items-center gap-10 md:pl-[-150px] mb-12"
         data-aos="fade-up"
       >
         <div className="flex flex-col items-center">
@@ -49,7 +49,7 @@ const GetInTouch = () => {
       >
         {/* Image */}
         <div
-          className="w-full sm:w-4/5 md:w-3/5 lg:w-1/2 -mt-50 hidden lg:block"
+          className="w-full sm:w-4/5 md:w-3/5 lg:w-1/2 -mt-[50] hidden lg:block"
           data-aos="zoom-in"
         >
           <Image
